@@ -1,0 +1,52 @@
+{
+  "name": "@jeremykenedy/claude-rules-mcp",
+  "version": "1.0.0",
+  "description": "MCP server serving Claude Code skills and rules via HTTP and stdio transports",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "claude-rules-mcp": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "init": "node dist/cli.js init",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "claude-code",
+    "skills",
+    "rules",
+    "anthropic",
+    "ai-tools"
+  ],
+  "author": "Jeremy Kenedy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremykenedy/claude-rules-mcp-server.git"
+  },
+  "homepage": "https://github.com/jeremykenedy/claude-rules-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/jeremykenedy/claude-rules-mcp-server/issues"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "express": "^4.21.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.2"
+  }
+}

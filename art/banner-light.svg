@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <rect width="800" height="200" rx="16" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <g transform="translate(580, 35)">
+    <rect x="10" y="10" width="140" height="100" rx="12" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5"/>
+    <circle cx="45" cy="45" r="14" fill="#ede9fe" stroke="#a78bfa" stroke-width="1.2"/>
+    <rect x="65" y="35" width="60" height="6" rx="3" fill="#c4b5fd"/>
+    <rect x="65" y="48" width="45" height="6" rx="3" fill="#ddd6fe"/>
+    <circle cx="45" cy="75" r="14" fill="#ede9fe" stroke="#a78bfa" stroke-width="1.2"/>
+    <rect x="65" y="65" width="55" height="6" rx="3" fill="#c4b5fd"/>
+    <rect x="65" y="78" width="40" height="6" rx="3" fill="#ddd6fe"/>
+    <path d="M80 120 L80 105 L95 112.5 Z" fill="#8b5cf6" opacity=".6"/>
+    <rect x="30" y="115" width="40" height="8" rx="4" fill="#f0fdf4" stroke="#86efac" stroke-width=".8"/>
+    <text x="50" y="122" font-size="6" fill="#166534" text-anchor="middle" font-family="system-ui">484</text>
+  </g>
+  <text x="50" y="80" font-size="40" font-weight="700" fill="#0f172a" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" letter-spacing="-.5">Claude Rules MCP</text>
+  <text x="50" y="110" font-size="14" fill="#64748b" font-family="system-ui, -apple-system, sans-serif">Serve 484 skills and 17 rules to any Claude client via MCP</text>
+  <g transform="translate(50, 128)">
+    <rect width="65" height="22" rx="11" fill="#f5f3ff" stroke="#c4b5fd" stroke-width=".8"/>
+    <text x="32.5" y="15" font-size="10" font-weight="500" fill="#6d28d9" text-anchor="middle" font-family="system-ui">MCP Server</text>
+    <rect x="75" width="50" height="22" rx="11" fill="#eff6ff" stroke="#93c5fd" stroke-width=".8"/>
+    <text x="100" y="15" font-size="10" font-weight="500" fill="#1e40af" text-anchor="middle" font-family="system-ui">HTTP</text>
+    <rect x="135" width="45" height="22" rx="11" fill="#f0fdf4" stroke="#86efac" stroke-width=".8"/>
+    <text x="157.5" y="15" font-size="10" font-weight="500" fill="#166534" text-anchor="middle" font-family="system-ui">stdio</text>
+    <rect x="190" width="60" height="22" rx="11" fill="#fffbeb" stroke="#fcd34d" stroke-width=".8"/>
+    <text x="220" y="15" font-size="10" font-weight="500" fill="#b45309" text-anchor="middle" font-family="system-ui">Token Auth</text>
+    <rect x="260" width="70" height="22" rx="11" fill="#fef2f2" stroke="#fca5a5" stroke-width=".8"/>
+    <text x="295" y="15" font-size="10" font-weight="500" fill="#b91c1c" text-anchor="middle" font-family="system-ui">Cloudflare</text>
+  </g>
+</svg>
