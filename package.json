@@ -1,5 +1,5 @@
 {
-  "name": "@jeremykenedy/claude-rules-mcp",
+  "name": "claude-rules-mcp",
   "version": "1.0.0",
   "description": "MCP server serving Claude Code skills and rules via HTTP and stdio transports",
   "type": "module",

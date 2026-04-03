@@ -11,7 +11,8 @@ Serve 484 skills and 17 rules to any Claude client via MCP
 </p>
 
 <p align="center">
-<a href="https://www.npmjs.com/package/@jeremykenedy/claude-rules-mcp"><img src="https://img.shields.io/npm/v/@jeremykenedy/claude-rules-mcp.svg" alt="npm version"></a>
+<a href="https://www.npmjs.com/package/claude-rules-mcp"><img src="https://img.shields.io/npm/dt/claude-rules-mcp.svg" alt="Total Downloads"></a>
+<a href="https://www.npmjs.com/package/claude-rules-mcp"><img src="https://img.shields.io/npm/v/claude-rules-mcp.svg" alt="npm version"></a>
 <a href="https://github.com/jeremykenedy/claude-rules-mcp-server/actions/workflows/tests.yml"><img src="https://github.com/jeremykenedy/claude-rules-mcp-server/actions/workflows/tests.yml/badge.svg" alt="Tests"></a>
 <img src="https://img.shields.io/badge/MCP-Compatible-8b5cf6" alt="MCP Compatible">
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
@@ -57,7 +58,13 @@ An MCP (Model Context Protocol) server that reads Claude Code skills and rules f
 ### npm (recommended)
 
 ```bash
-npx @jeremykenedy/claude-rules-mcp init
+npm install claude-rules-mcp
+```
+
+Or run directly without installing:
+
+```bash
+npx claude-rules-mcp init
 ```
 
 ### Manual
@@ -74,7 +81,7 @@ npm run build
 Run the interactive setup wizard:
 
 ```bash
-npx @jeremykenedy/claude-rules-mcp init
+npx claude-rules-mcp init
 ```
 
 The wizard walks through transport selection, paths, and token auth. It creates a `.env` file with your configuration.
@@ -82,7 +89,7 @@ The wizard walks through transport selection, paths, and token auth. It creates 
 Then start the server:
 
 ```bash
-npx @jeremykenedy/claude-rules-mcp run
+npx claude-rules-mcp run
 ```
 
 ## Tools
@@ -145,7 +152,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
   "mcpServers": {
     "claude-rules": {
       "command": "npx",
-      "args": ["-y", "@jeremykenedy/claude-rules-mcp", "run"]
+      "args": ["-y", "claude-rules-mcp", "run"]
     }
   }
 }
